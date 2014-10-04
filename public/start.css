@@ -1,0 +1,21 @@
+
+img.filmstrip {
+  margin: 0 -100px;
+  box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.3);
+}
+
+p {
+  margin: 30px 0;
+}
+
+img.pics {
+  display: block;
+  float: left;
+  margin: 0;
+  border: 10px white solid;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.1);
+}
+
+p.photos {
+  margin: 50px 0;
+}
