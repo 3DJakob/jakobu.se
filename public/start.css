@@ -1,7 +1,7 @@
 
 .filmstrip {
-  margin-left: -128px;
-  margin-right: -128px;
+  margin-left: -112px;
+  margin-right: -112px;
   text-align: center;
 }
 
@@ -23,4 +23,9 @@ img.pics {
 
 p.photos {
   margin: 64px 0;
+}
+
+
+main {
+  overflow: visible;
 }
