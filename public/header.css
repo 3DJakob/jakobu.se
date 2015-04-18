@@ -3,75 +3,67 @@ body {
   padding: 0px;
 }
 
-header div.top {
-  height: 100px;
+header {
   width: 100%;
   background-color: #78D1E6;
-
 }
 
-header div.bar {
+nav {
   height: 100px;
   width: 960px;
-  margin: auto;
-  background-color: #78D1E6;
-
+  margin: 0 auto;
 }
 
-header .bar a {
+nav a {
+
+  float: left;
   width: 320px;
   height: 100px;
-  float: left;
+
   text-align: center;
-  font-family: oleo script;
+  font-family: 'Oleo Script', cursive;
   font-size: 14pt;
+
   color: #DADEC1;
   text-decoration: none;
+
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+
 }
 
+nav a::before {
 
-header div.bar div.animation {
+  content: '';
+  display: block;
+
+  z-index: -1;
+  position: absolute;
 
   width: 340px;
   height: 340px;
-  background-color: white;
-  border-radius: 170px;
-  opacity: 0;
   margin-top: -120px;
   margin-left: -10px;
-  cursor: pointer;
 
-
-  -webkit-transition: 0.3s ease-in-out;
-  -moz-transition: 0.3s ease-in-out;
-  -o-transition: 0.3s ease-in-out;
+  border-radius: 170px;
+  background-color: rgba(255, 255, 255, 0);
 
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
-  -o-transform: scale(0);
-  -ms-transform: scale(0);
+  transform: scale(0);
+
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+
 }
 
-header div.bar a:hover div.animation {
-  -webkit-opacity: 0.2;
-  -moz-opacity: 0.2;
-  -o-opacity: 0.2;
-  -ms-opacity: 0.2;
-  opacity: 0.2;
-
+nav a:hover::before {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
-  -o-transform: scale(1);
-  -ms-transform: scale(1);
   transform: scale(1);
-}
-
-header div.bar div.crop {
-  position: absolute;
-  width: 320px;
-  height: 100px;
-  overflow: hidden;
-  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 #banner {
