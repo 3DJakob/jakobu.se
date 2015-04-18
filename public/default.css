@@ -1,5 +1,5 @@
 h1 {
-  font-family: oleo script;
+  font-family: 'oleo script', cursive;
   text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
   text-align: center;
   font-size: 70pt;
@@ -15,5 +15,5 @@ h2 {
 }
 
 p {
-  font-family: helvetica;
+  font-family: 'helvetica', sans-serif;
 }
