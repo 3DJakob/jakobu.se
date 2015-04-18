@@ -1,19 +1,30 @@
-
 var ejs = require('ejs');
 var express = require('express');
-
 var app = express();
 
 app.set('views', __dirname + '/views');
 app.engine('ejs', ejs.renderFile);
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('public'));
 
-app.get('/', function(req, res){
-  res.render('page_start.ejs', {
-    title: 'Jakob Unnebäck'
+app.get('/', function (req, res) {
+  res.render('page_home.ejs', {
+    page: 'home'
   });
 });
 
-app.listen(3750, function(){
-  console.log('http://localhost:3750');
+
+app.get('/explore', function (req, res) {
+  res.render('page_explore.ejs', {
+    page: 'explore'
+  });
+});
+
+app.get('/me', function (req, res) {
+  res.render('page_me.ejs', {
+    page: 'me'
+  });
+});
+
+app.listen(3000, function(){
+  console.log('listening on *:3000');
 });

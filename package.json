@@ -1,8 +1,8 @@
 {
-  "name": "jakobu",
+  "name": "jakobu-v2",
   "version": "0.0.1",
+  "description": "jakobu wbsite v2",
   "dependencies": {
-    "express": "~4.9.5",
-    "ejs": "~1.0.0"
+    "express": "^4.10.2"
   }
 }

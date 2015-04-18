@@ -1,0 +1,108 @@
+div.page-home {
+  height: 2000px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 0;
+
+}
+
+.page-home div.description {
+  width: 560px;
+
+  float: right;
+  padding: 20px;
+  padding-top: 35px;
+}
+
+.page-home .description h2 {
+  text-align: left;
+  margin-top: -10px;
+}
+
+.page-home .description p {
+  line-height: 25px;
+}
+
+
+.page-home a.email {
+  width: 400px;
+  height: 100px;
+  line-height: 100px;
+  float: left;
+  text-align: center;
+  font-family: oleo script;
+  font-size: 22pt;
+  color: #DADEC1;
+  background-color: #84D0E5;
+  margin-left: -20px;
+  border-radius: 0 20px 20px 0;
+  text-decoration: none;
+}
+
+.page-home a.email img {
+  width: 200px;
+  heigth: 100px;
+  float: right;
+  display: inline block;
+}
+
+.page-home img.filmstrip {
+  width: 1184px;
+  margin: auto;
+}
+
+.page-home div.arrow {
+  background-color:;
+  margin: -130px auto 0 200px
+
+}
+
+
+
+.page-home div.arrow div:first-child {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 141px 141px 0;
+  border-color: transparent #8ecfe4 transparent transparent;
+}
+
+.page-home div.arrow div:nth-child(2) {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 141px 0 0 141px;
+  border-color: transparent transparent transparent #8ecfe4;
+  postion: relative;
+  margin: -141 auto auto 141px;
+}
+
+.page-home div.arrow div:nth-child(3) {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 141px 141px 0;
+  border-color: transparent #8ecfe4 transparent transparent;
+  postion: relative;
+  margin: 0 auto auto 141px;
+}
+
+.page-home a.youtube {
+  width: 400px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-family: oleo script;
+  font-size: 22pt;
+  color: #DADEC1;
+  background-color: #84D0E5;
+  margin: -20px;
+  border-radius: 0 20px 20px 0;
+  text-decoration: none;
+}
+
+.page-home a.youtube img {
+  width: 200px;
+  heigth: 100px;
+  float: right;
+  display: inline block;

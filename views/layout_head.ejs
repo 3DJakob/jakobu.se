@@ -1,13 +1,29 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Jakob Unnebäck</title>
-  <link rel="stylesheet" type="text/css" href="layout.css">
-  <link rel="stylesheet" type="text/css" href="start.css">
-  <meta name="viewport" content="width=1184px">
+  <title>JakobU</title>
+
+  <link rel="stylesheet" href="/header.css" />
+  <link rel="stylesheet" href="/home.css" />
+  <link rel="stylesheet" href="/explore.css" />
+  <link rel="stylesheet" href="/default.css" />
+
+  <link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
+
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="/scripts.js"></script>
+
 </head>
 <body>
-
   <header>
-    <h1><%= title %></h1>
+
+    <div class="top">
+      <div class="bar">
+        <a href="/"> <div class="crop"><div class="animation"></div></div> <img class="icon" src="home.png"> Home</a>
+        <a href="/explore"> <div class="crop"><div class="animation"></div></div> <img class="icon" src="explore.png"> Explore</a>
+        <a href="/me"> <div class="crop"><div class="animation"></div></div> <img class="icon" src="me.png"> Me</a>
+      </div>
+    </div>
+
+    <section id="banner" data-type="background" data-speed="2"></section>
+
   </header>
