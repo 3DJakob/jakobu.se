@@ -75,18 +75,17 @@ header div.bar div.crop {
 }
 
 #banner {
-background: url(/banner.jpg) 0 fixed;
-min-height: 20%;
-margin: 0px;
-width: 100%;
-background-position: top, center;
-background-size: 100%;
-background-repeat: no-repeat;
+  background: url(/banner.jpg) 0 fixed;
+  min-height: 20%;
+  margin: 0px;
+  width: 100%;
+  background-position: top, center;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 img.icon {
-  height: 70px;
   width: 70px;
+  height: 70px;
   margin: 0 125px;
-
 }
