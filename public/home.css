@@ -1,5 +1,4 @@
 div.page-home {
-  height: 2000px;
   width: 1200px;
   margin: auto;
   margin-top: 0;
@@ -34,8 +33,8 @@ div.page-home {
   font-size: 22pt;
   color: #DADEC1;
   background-color: #84D0E5;
-  margin-left: -20px;
-  border-radius: 0 20px 20px 0;
+  margin-left: -21px;
+  border-radius: 0 2px 2px 0;
   text-decoration: none;
 }
 
@@ -46,58 +45,58 @@ div.page-home {
   display: inline block;
 }
 
-.page-home img.filmstrip {
-  width: 1184px;
-  margin: auto;
-}
-
 .page-home div.arrow {
   background-color:;
-  margin: -130px auto 0 200px
-
+  margin: -80px auto 0 200px
 }
-
-
 
 .page-home div.arrow div:first-child {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 141px 141px 0;
-  border-color: transparent #8ecfe4 transparent transparent;
+  border-width: 0 100px 100px 0;
+  border-color: transparent #DC7417 transparent transparent;
 }
 
 .page-home div.arrow div:nth-child(2) {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 141px 0 0 141px;
-  border-color: transparent transparent transparent #8ecfe4;
+  border-width: 100px 0 0 100px;
+  border-color: transparent transparent transparent #DC7417;
   postion: relative;
-  margin: -141 auto auto 141px;
+  margin: -100px 0 0 141px;
 }
 
 .page-home div.arrow div:nth-child(3) {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 141px 141px 0;
-  border-color: transparent #8ecfe4 transparent transparent;
+  border-width: 0 100px 100px 0;
+  border-color: transparent #DC7417 transparent transparent;
   postion: relative;
-  margin: 0 auto auto 141px;
+  margin: 0 0 0 100px;
+}
+
+.page-home div.arrow div.fill {
+  width: 41px;
+  height: 41px;
+  background-color: #DC7417;
+  margin: -140px 0 0 100px;
 }
 
 .page-home a.youtube {
   width: 400px;
   height: 100px;
+  float: left;
   line-height: 100px;
   text-align: center;
   font-family: oleo script;
   font-size: 22pt;
   color: #DADEC1;
-  background-color: #84D0E5;
-  margin: -20px;
-  border-radius: 0 20px 20px 0;
+  background-color: #DC7417;
+  margin: -100px 0 0 200px;
+  border-radius: 0 2px 2px 0;
   text-decoration: none;
 }
 
@@ -106,3 +105,9 @@ div.page-home {
   heigth: 100px;
   float: right;
   display: inline block;
+}
+
+.page-home img.filmstrip {
+  width: 1184px;
+  margin: 40px auto;
+}
