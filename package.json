@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "jakobu wbsite v2",
   "dependencies": {
+    "ejs": "^2.3.1",
     "express": "^4.10.2"
   }
 }
