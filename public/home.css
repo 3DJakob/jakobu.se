@@ -5,24 +5,6 @@ div.page-home {
 
 }
 
-.page-home div.description {
-  width: 560px;
-
-  float: right;
-  padding: 20px;
-  padding-top: 35px;
-}
-
-.page-home .description h2 {
-  text-align: left;
-  margin-top: -10px;
-}
-
-.page-home .description p {
-  line-height: 25px;
-}
-
-
 .page-home a.email {
   width: 400px;
   height: 100px;
