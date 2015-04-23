@@ -1,0 +1,16 @@
+div.page_me {
+  width: 800px;
+  margin: auto;
+  margin-top: 0;
+}
+
+.page_me img {
+  width: 800px;
+  /*margin: 0 200px;*/
+}
+
+.page_me p {
+  line-height: 25px;
+  width: 800px;
+  /*margin: 0 200px;*/
+}
