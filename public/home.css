@@ -62,9 +62,9 @@ div.page-home {
 
 .page-home div.arrow div.fill {
   width: 41px;
-  height: 41px;
+  height: 100px;
   background-color: #DC7417;
-  margin: -140px 0 0 100px;
+  margin: -200px 0 0 100px;
 }
 
 .page-home a.youtube {
