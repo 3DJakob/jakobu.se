@@ -13,9 +13,10 @@ div.page-home {
   text-align: center;
   font-family: oleo script;
   font-size: 22pt;
-  color: #DADEC1;
+  color: white;
   background-color: #84D0E5;
   margin-left: -21px;
+  margin-top: -13px;
   border-radius: 0 2px 2px 0;
   text-decoration: none;
 }
@@ -75,7 +76,7 @@ div.page-home {
   text-align: center;
   font-family: oleo script;
   font-size: 22pt;
-  color: #DADEC1;
+  color: white;
   background-color: #DC7417;
   margin: -100px 0 0 200px;
   border-radius: 0 2px 2px 0;
