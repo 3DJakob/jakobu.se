@@ -1,17 +1,17 @@
-var $window = $(window);
 
-$(document).ready(function(){
-    $('section[data-type="background"]').each(function(){
-        var $bgobj = $(this); // assigning the object
+/* Banner paralax effect */
+(function () {
 
-        $(window).scroll(function() {
-            var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+  var modifier = 0.5
+  var bannerDiv = document.querySelector('#banner > div')
 
-            // Put together our final background position
-            var coords = '50% '+ yPos + 'px';
+  function clamp(val, low, high) {
+    return (val < low ? low : ( val > high ? high : val ))
+  }
 
-            // Move the background
-            $bgobj.css({ backgroundPosition: coords });
-        });
-    });
-});
+  window.addEventListener('scroll', function () {
+    var y = clamp(window.scrollY, 0, 300) * modifier
+    bannerDiv.style.WebkitTransform = 'translateY(' + (-y) + 'px)'
+  })
+
+}())
