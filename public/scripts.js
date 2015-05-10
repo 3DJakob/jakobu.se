@@ -2,7 +2,7 @@
 /* Banner paralax effect */
 (function () {
 
-  var modifier = 0.5
+  var modifier = 0.3
   var bannerDiv = document.querySelector('#banner > div')
 
   function clamp(val, low, high) {
