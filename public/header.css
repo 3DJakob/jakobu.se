@@ -67,12 +67,12 @@ nav a:hover::before {
 }
 
 #banner {
-  background: url(/banner.jpg) 0 fixed;
-  min-height: 20%;
+  background: url(/banner.jpg) 0;
+  min-height: 200px;
   margin: 0px;
   width: 100%;
   background-position: top, center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
