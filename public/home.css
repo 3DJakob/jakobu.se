@@ -5,6 +5,10 @@ div.page-home {
 
 }
 
+.page-home h2 {
+  line-height: 20px;
+}
+
 .page-home a.email {
   width: 400px;
   height: 100px;
@@ -16,7 +20,7 @@ div.page-home {
   color: white;
   background-color: #84D0E5;
   margin-left: -21px;
-  margin-top: -13px;
+  margin-top: 4px;
   border-radius: 0 2px 2px 0;
   text-decoration: none;
 }
@@ -92,5 +96,10 @@ div.page-home {
 
 .page-home img.filmstrip {
   width: 1184px;
-  margin: 40px auto;
+  margin: 100px 8px;
+
+}
+
+.page-home img.hex {
+  margin: 0 300px;
 }
