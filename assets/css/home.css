@@ -1,8 +1,8 @@
 div.page-home {
-  width: 1200px;
-  margin: auto;
-  margin-top: 0;
-
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .page-home h2 {
@@ -10,26 +10,25 @@ div.page-home {
 }
 
 .page-home a.email {
-  width: 400px;
+  width: 250px;
   height: 100px;
+  padding-right: 150px;
   line-height: 100px;
   float: left;
   text-align: center;
-  font-family: oleo script;
+  font-family: 'oleo script';
   font-size: 22pt;
   color: white;
-  background-color: #84D0E5;
-  margin-left: -21px;
-  margin-top: 4px;
+  margin-left: -20px;
+  margin-top: 7px;
   border-radius: 0 2px 2px 0;
   text-decoration: none;
-}
 
-.page-home a.email img {
-  width: 200px;
-  heigth: 100px;
-  float: right;
-  display: inline block;
+  background-color: #84D0E5;
+  background-image: url('/img/mail.png');
+  background-repeat: no-repeat;
+  background-position: 222px 0px;
+  background-size: 200px 100px;
 }
 
 .page-home div.arrow {
@@ -73,32 +72,66 @@ div.page-home {
 }
 
 .page-home a.youtube {
-  width: 400px;
+  width: 250px;
   height: 100px;
+  padding-right: 150px;
   float: left;
   line-height: 100px;
   text-align: center;
-  font-family: oleo script;
+  font-family: 'oleo script';
   font-size: 22pt;
   color: white;
-  background-color: #DC7417;
   margin: -100px 0 0 200px;
   border-radius: 0 2px 2px 0;
   text-decoration: none;
-}
 
-.page-home a.youtube img {
-  width: 200px;
-  heigth: 100px;
-  float: right;
-  display: inline block;
+  background-color: #DC7417;
+  background-image: url('/img/youtube.png');
+  background-repeat: no-repeat;
+  background-position: 222px 0px;
+  background-size: 200px 100px;
 }
 
 .page-home img.filmstrip {
-  width: 1184px;
-  margin: 100px 8px;
+  width: 1200px;
+  margin: 100px auto;
 }
 
 .page-home img.hex {
-  margin: 0 300px;
+  display: block;
+  margin: 0 auto 96px;
+}
+
+@media (max-width: 1200px) {
+
+  div.page-home div.arrow {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  div.page-home div.arrow>div {
+    display: none;
+  }
+
+  div.page-home .video-and-description {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  div.page-home a.email,
+  div.page-home a.youtube {
+    margin: 12px auto;
+    display: block;
+    float: none;
+    border-radius: 0 2px 2px 0;
+    width: 200px;
+    padding-right: 200px;
+    background-position: 200px 0px;
+    border-radius: 2px;
+  }
+
+  div.page-home a.email {
+    margin-top: 64px;
+  }
+
 }

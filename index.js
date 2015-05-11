@@ -4,7 +4,10 @@ var app = express();
 
 app.set('views', __dirname + '/views');
 app.engine('ejs', ejs.renderFile);
-app.use(express.static('public'));
+
+app.use('/js', express.static('assets/js'));
+app.use('/css', express.static('assets/css'));
+app.use('/img', express.static('assets/img'));
 
 app.get('/', function (req, res) {
   res.render('page_home.ejs', {
@@ -25,6 +28,6 @@ app.get('/me', function (req, res) {
   });
 });
 
-app.listen(3000, function(){
-  console.log('listening on *:3000');
+app.listen(3000, function () {
+  console.log('http://localhost:3000');
 });

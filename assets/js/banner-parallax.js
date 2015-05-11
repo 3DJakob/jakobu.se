@@ -1,5 +1,5 @@
 
-/* Banner paralax effect */
+/* Banner parallax effect */
 (function () {
 
   var modifier = 0.3
