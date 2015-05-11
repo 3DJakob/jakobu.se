@@ -1,11 +1,10 @@
 div.page_me {
-  width: 800px;
-  margin: auto;
+  width: 100%;
   margin-top: 0;
 }
 
 .page_me img {
-  width: 800px;
+  width: 100%;
 }
 
 .page_me p {

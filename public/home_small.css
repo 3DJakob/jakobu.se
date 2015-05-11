@@ -1,0 +1,64 @@
+div.page-home {
+  width: 600px;
+  margin: auto;
+  margin-top: 0;
+
+}
+
+.page-home h2 {
+  line-height: 20px;
+}
+
+.page-home a.email {
+  width: 400px;
+  height: 100px;
+  line-height: 100px;
+  float: left;
+  margin: 30px 80px 0 80px;
+  text-align: center;
+  font-family: oleo script;
+  font-size: 22pt;
+  color: white;
+  background-color: #84D0E5;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.page-home a.email img {
+  width: 200px;
+  heigth: 100px;
+  float: right;
+  display: inline block;
+}
+
+.page-home a.youtube {
+  width: 400px;
+  height: 100px;
+  float: left;
+  line-height: 100px;
+  text-align: center;
+  font-family: oleo script;
+  font-size: 22pt;
+  color: white;
+  background-color: #DC7417;
+  border-radius: 2px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 100px;
+}
+
+.page-home a.youtube img {
+  width: 200px;
+  heigth: 100px;
+  float: right;
+
+}
+
+.page-home img.filmstrip {
+  width: 1184px;
+  margin: 30px auto 30px -292px;
+}
+
+.page-home img.hex {
+  margin: 0 auto;
+}

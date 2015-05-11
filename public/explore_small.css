@@ -1,14 +1,20 @@
 div.page-explore {
-  width: 1200px;
+  width: 600px;
   margin: 100px auto;
 }
 
 .page-explore h1:first-child {
   margin: -40px 0 40px 0;
+  /*line-height: 20px;*/
+}
+
+.page-explore h1:sec-child {
+  line-height: 100px;
 }
 
 .page-explore h1 {
-  margin-top: 100px;
+  /*line-height: 100px;*/
+  margin: 200px 0 50px auto;
 }
 
 .page-explore p.ingress {
@@ -20,6 +26,6 @@ div.page-explore {
 }
 
 .page-explore img.filmstrip {
-  width: 1184px;
-  margin: 0 8px 50px 8px;
+  width: 600px;
+  margin: 0 0 30px 0;
 }
