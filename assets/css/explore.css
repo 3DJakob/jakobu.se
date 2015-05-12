@@ -36,4 +36,8 @@ div.page-explore {
     max-width: 600px;
   }
 
+  .page-explore iframe {
+    margin-bottom: 20px;
+  }
+
 }
