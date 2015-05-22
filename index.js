@@ -1,8 +1,9 @@
 var ejs = require('ejs');
+var path = require('path');
 var express = require('express');
 var app = express();
 
-app.set('views', __dirname + '/views');
+app.set('views', path.join(__dirname, 'views'));
 app.engine('ejs', ejs.renderFile);
 
 app.use('/js', express.static('assets/js'));
