@@ -10,7 +10,7 @@
   }
 
   function updateBanner () {
-    var y = clamp(window.scrollY, 0, 300) * modifier
+    var y = clamp(window.scrollY, 0, 360) * modifier
     bannerDiv.style.WebkitTransform = 'translateY(' + (y - 30) + 'px )'
   }
 
