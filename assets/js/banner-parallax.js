@@ -9,9 +9,12 @@
     return (val < low ? low : ( val > high ? high : val ))
   }
 
-  window.addEventListener('scroll', function () {
+  function updateBanner () {
     var y = clamp(window.scrollY, 0, 300) * modifier
-    bannerDiv.style.WebkitTransform = 'translateY(' + (y) + 'px )'
-  })
+    bannerDiv.style.WebkitTransform = 'translateY(' + (y - 30) + 'px )'
+  }
+
+  window.addEventListener('scroll', updateBanner)
+  updateBanner()
 
 }())
