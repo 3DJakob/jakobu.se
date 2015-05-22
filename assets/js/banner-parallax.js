@@ -11,7 +11,7 @@
 
   window.addEventListener('scroll', function () {
     var y = clamp(window.scrollY, 0, 300) * modifier
-    bannerDiv.style.WebkitTransform = 'translateY(' + (-y) + 'px)'
+    bannerDiv.style.WebkitTransform = 'translateY(' + (y) + 'px )'
   })
 
 }())

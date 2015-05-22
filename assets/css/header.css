@@ -81,6 +81,7 @@ nav a:hover::before {
   background-image: url('/img/banner.jpg');
   background-position: top center;
   background-repeat: no-repeat;
+  margin-top: -30px;
 }
 
 img.icon {
