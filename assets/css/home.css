@@ -85,10 +85,15 @@ div.page-home {
   text-decoration: none;
 
   background-color: #DC7417;
-  background-image: url('/img/youtube.png');
+  background-image: url('/img/youtubelines.png');
   background-repeat: no-repeat;
   background-position: 222px 0px;
   background-size: 200px 100px;
+}
+
+.page-home p {
+  margin-top: -2px;
+  margin-bottom: -7px;
 }
 
 .page-home img.filmstrip {
@@ -96,9 +101,10 @@ div.page-home {
   margin: 100px auto;
 }
 
-.page-home img.hex {
+.page-home img.uu {
   display: block;
   margin: 0 auto 96px;
+  width: 90%;
 }
 
 @media (max-width: 1200px) {
