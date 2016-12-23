@@ -1,0 +1,103 @@
+div.page_me {
+  margin: 0 auto;
+  max-width: 800px;
+  margin-bottom: 200;
+}
+
+.page_me img.wide {
+  width: 100%;
+  margin: 24px 0;
+}
+
+.page_me p {
+  margin: auto;
+  line-height: 160%;
+  margin-bottom: 40px;
+  width: 90%;
+}
+
+.page_me div.imgbox {
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.page_me div.imgbox div {
+  width: 50%;
+  float: left;
+}
+
+.page_me div.imgbox div:last-child {
+  float: right;
+}
+
+.page_me .imgbox div:first-child img.badge {
+  display: block;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.page_me .imgbox div:last-child img.badge {
+  display: block;
+  height: 150px;
+  padding: 25px 0;
+  margin: 0 auto;
+}
+
+.page_me div.links {
+  width: 720px;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #DC7417;
+  border-radius: 5px;
+
+  background: -webkit-linear-gradient(#DB873D, #DC7417); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#DB873D, #DC7417); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#DB873D, #DC7417); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#DB873D, #DC7417); /* Standard syntax */
+}
+
+.page_me .links a {
+  height: 30px;
+  width: 240px;
+  float: left;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+  background: -webkit-linear-gradient(#DB873D, #DC7417); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#DB873D, #DC7417); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#DB873D, #DC7417); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#DB873D, #DC7417); /* Standard syntax */
+
+  color:  #fff;
+  font-family: 'oleo script', cursive;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+  text-align: center;
+  font-size: 14pt;
+  text-decoration: none;
+
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.page_me .links a:hover {
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+
+  background: -webkit-linear-gradient(#DB873D, #DB873D); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#DB873D, #DB873D); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#DB873D, #DB873D); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#DB873D, #DB873D); /* Standard syntax */
+
+
+}
+
+@media (max-width: 800px) {
+  .page_me div.links {
+    width: 320px;
+  }
+  .page_me .links a {
+    width: 320px;
+  }
+}

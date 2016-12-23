@@ -1,0 +1,17 @@
+.wide-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-image: url('/img/gear.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 30px 0;
+}
+
+.wide-image h2 {
+  color: #fff;
+}
