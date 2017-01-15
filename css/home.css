@@ -1,0 +1,6 @@
+.home div.view {
+  background-image: url(../img/paris.jpg);
+}
+.home div.view:nth-child(2) {
+  background-image: url(../img/lumixblackflare.jpg);
+}
